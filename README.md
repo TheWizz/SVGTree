@@ -1,3 +1,18 @@
+Fork notes
+=========================
+
+This is a fork where I've only added a TypeScript-ified version 
+of SVGTree.ts in the src directory. This version has not been
+merged into the demo, but has been tested separately. Unlike the
+original svgtree.js file, the TS version doesn't add the classes
+to the global window object, but ues the standard TS export mechanism
+to publish relevant classes.
+
+Original notes follow below
+
+-JM
+
+
 SVGTree
 =========================
 
